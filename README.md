@@ -13,7 +13,6 @@ A port of [YUNG's Better Nether Fortresses](https://github.com/YUNG-GANG/YUNGs-B
 
 ## Differences from the original
 
-- The fortress is assembled to depth 20, not the original's 46, so it is smaller.
 - The bridge arches above the bridge piers and the item frames' contents are left out.
 
 ## Building
@@ -25,7 +24,7 @@ cargo sunrise-mod check
 cargo sunrise-mod build    # target/sunrise-mod/betterfortresses.smod
 ```
 
-This version is made for the Sunrise Dev build `dev-2026-11-22-7cfdf81`.
+This version is made for the Sunrise Dev build `dev-2026-11-23-ebd2d22` or newer: earlier builds stop a jigsaw structure deeper than 20 pieces.
 
 ## Licence and credits
 
