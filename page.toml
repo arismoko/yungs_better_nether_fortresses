@@ -19,5 +19,5 @@ A port of YUNG's Better Nether Fortresses by YUNGNICKYOUNG and Acarii, under the
 categories = ["worldgen", "adventure"]
 
 [[screenshots]]
-path = "page/world.png"
-caption = "TODO"
+path = "page/nether-keep.png"
+caption = "The keep and a bridge of a Better Nether Fortress in a soul sand valley."
