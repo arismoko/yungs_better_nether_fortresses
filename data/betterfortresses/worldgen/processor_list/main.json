@@ -1,6 +1,218 @@
 {
   "processors": [
     {
+      "processor_type": "sunrise:stair_pillar",
+      "blocks": {
+        "minecraft:stone_brick_stairs": "minecraft:red_nether_brick_stairs",
+        "minecraft:purpur_stairs": "minecraft:red_nether_bricks"
+      },
+      "front": "minecraft:red_nether_brick_stairs",
+      "pillar": "minecraft:red_nether_bricks"
+    },
+    {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:prismarine_stairs",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:prismarine_brick_stairs",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:nether_wart",
+      "picks": [
+        {
+          "below": 0.1,
+          "state": {
+            "id": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:red_sandstone_stairs"
+      },
+      "target_block_output": {
+        "entries": [],
+        "defaultBlockState": {
+          "id": "minecraft:nether_brick_stairs"
+        }
+      },
+      "pillar_states": {
+        "entries": [],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      },
+      "keep_properties": true
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:orange_terracotta"
+      },
+      "target_block_output": {
+        "entries": [],
+        "defaultBlockState": {
+          "id": "minecraft:red_nether_bricks"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:magma_block"
+            },
+            "probability": 0.5,
+            "condition": {
+              "type": "yungsapi:altitude",
+              "top_cutoff_y": 31
+            }
+          },
+          {
+            "blockState": {
+              "id": "minecraft:cracked_nether_bricks"
+            },
+            "probability": 0.4,
+            "condition": {
+              "type": "yungsapi:altitude",
+              "top_cutoff_y": 33
+            }
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:yellow_terracotta"
+      },
+      "target_block_output": {
+        "entries": [],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:magma_block"
+            },
+            "probability": 0.5,
+            "condition": {
+              "type": "yungsapi:altitude",
+              "top_cutoff_y": 31
+            }
+          },
+          {
+            "blockState": {
+              "id": "minecraft:cracked_nether_bricks"
+            },
+            "probability": 0.4,
+            "condition": {
+              "type": "yungsapi:altitude",
+              "top_cutoff_y": 33
+            }
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:orange_wool"
+      },
+      "target_block_output": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:magma_block"
+            },
+            "probability": 0.75
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:cracked_nether_bricks"
+            },
+            "probability": 0.4
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:yung_pillar",
+      "target_block": {
+        "id": "minecraft:orange_concrete"
+      },
+      "target_block_output": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:magma_block"
+            },
+            "probability": 0.75
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      },
+      "pillar_states": {
+        "entries": [
+          {
+            "blockState": {
+              "id": "minecraft:cracked_nether_bricks"
+            },
+            "probability": 0.4
+          }
+        ],
+        "defaultBlockState": {
+          "id": "minecraft:nether_bricks"
+        }
+      }
+    },
+    {
+      "processor_type": "sunrise:pick",
+      "block": "minecraft:diorite",
+      "picks": [],
+      "default": {
+        "state": {
+          "id": "minecraft:lava"
+        }
+      }
+    },
+    {
       "processor_type": "minecraft:rule",
       "rules": [
         {

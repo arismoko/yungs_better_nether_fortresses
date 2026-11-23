@@ -14,7 +14,7 @@ A port of [YUNG's Better Nether Fortresses](https://github.com/YUNG-GANG/YUNGs-B
 ## Differences from the original
 
 - The fortress is assembled to depth 20, not the original's 46, so it is smaller.
-- Some Java processors (decoration and spawner setup) are left out.
+- The bridge arches above the bridge piers and the item frames' contents are left out.
 
 ## Building
 
