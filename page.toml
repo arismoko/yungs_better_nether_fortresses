@@ -1,0 +1,23 @@
+summary = "Nether fortresses redesigned as a keep with halls, bridges and blaze towers."
+description = """
+Nether fortresses redesigned as a keep with halls, bridges and blaze towers.
+
+What it adds:
+
+- A new Nether fortress: a keep, great halls, battle bridges and blaze towers, 167 templates assembled by YUNG's jigsaw rules with their own terrain fitting.
+- Its placement keeps clear of vanilla's other Nether structures.
+- Nine chest loot tables and the pillars and stair supports that hold the bridges up.
+- Vanilla Nether fortresses no longer generate, as in the original (its "Disable Vanilla Fortresses" option is on by default).
+
+Differences from the original:
+
+- The fortress is assembled to depth 20, not the original's 46, so it is smaller.
+- Some Java processors (decoration and spawner setup) are left out.
+
+A port of YUNG's Better Nether Fortresses by YUNGNICKYOUNG and Acarii, under the LGPL v3.0 only.
+"""
+categories = ["worldgen", "adventure"]
+
+[[screenshots]]
+path = "page/world.png"
+caption = "TODO"

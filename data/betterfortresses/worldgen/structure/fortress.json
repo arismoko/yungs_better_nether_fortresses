@@ -53,7 +53,7 @@
       ]
     }
   },
-  "horizon:enhanced_terrain_adaptation": {
+  "sunrise:enhanced_terrain_adaptation": {
     "kernel_size": 24,
     "kernel_distance": 24,
     "top": "carve",

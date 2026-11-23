@@ -10,7 +10,7 @@
     "salt": 784827271,
     "spacing": 30,
     "separation": 20,
-    "horizon:exclusion_zone": {
+    "sunrise:exclusion_zone": {
       "other_sets": [
         "minecraft:nether_complexes"
       ],

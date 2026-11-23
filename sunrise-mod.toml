@@ -1,0 +1,10 @@
+# YUNG's Better Nether Fortresses for Sunrise: content only (data/ and assets/), no code.
+id = "betterfortresses"
+name = "YUNG's Better Nether Fortresses"
+version = "0.3.0"
+description = "Nether fortresses redesigned as a keep with halls, bridges and blaze towers."
+authors = ["YUNGNICKYOUNG", "Acarii"]
+license = "LGPL-3.0-only"
+credits = "Ported to Minecraft 26.3 by AdLf0208, and to Sunrise by arismoko."
+homepage = "https://github.com/arismoko/yungs_better_nether_fortresses"
+side = "both"
